@@ -1,0 +1,15 @@
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 48px 24px;
+}
+
+img {
+  height: 300px;
+  width: 360px;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
