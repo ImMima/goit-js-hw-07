@@ -30,7 +30,7 @@ const list = images
   .map(
     (image) =>
       `<li>
-         <img src="${image.url}" alt="${image.alt}" />
+         <img src="${image.url}" alt="${image.alt}">
        </li>`
   )
   .join("");
